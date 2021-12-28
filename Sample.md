@@ -69,3 +69,51 @@
        - leagend
        - sup
        - sub
+
+     - syntax for css
+
+     ...
+
+     selector{
+       css properties
+     }  
+     ...
+
+     ### reference link
+
+     -https://htmlcolorcodes.com/-[colour codes]
+     -Vhttps://webaim.org/-[contract checker]
+
+
+     ### selectors
+
+
+     -simple selectors
+         -universal selector(*)
+         -By element name
+         -grouping selectors (,)
+         -class selector
+         -id selector
+     -combinators
+         -Descendant selector ( )
+         -Child selector (>)
+         -Adjacent silbing selector (+)
+         -General silbing selector (~)
+     -Pseudo class selector
+     -pseudo element selector
+     -Attribute selector
+
+
+     ### box model
+     
+     -margin
+     -border
+     -padding
+        -padding:10px(for alladjacent sides)
+        -padding:10px 30px(10px for top & bottom;30px for left&right)
+        -padding:10px 300px 50px(10px for top;300px for left&right; 50px for bottom)
+        -padding:
+     -width
+     
+
+

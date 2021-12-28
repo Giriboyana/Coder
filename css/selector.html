@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: ) CSS Selector ( ::</title>
+    <style>
+        *{
+            border: 20px solid blueviolet;
+        }
+        div p{
+            background-color: violet;
+            color: tomato;
+        }
+        div > p{
+            background-color: turquoise;
+            color: tomato;
+        }
+        section + p{
+            background-color: rgb(64, 67, 202);
+            color: thistle;
+            font-size: 70px;
+        }
+        div + h5{
+            font-size: 50px;
+        }
+        div ~ p{
+            background-color: rgb(61, 226, 39);
+        }
+        p:first-letter{
+             font-size: 40px;
+        }
+        p:first-line{
+            background-color: cadetblue;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <p>Paragraph</p>
+        <p>Paragraph1</p>
+    <div>
+    <p>paragraph2</p>
+    </div>
+    <section>
+        <p>paragraph5</p>
+        <p>paragraph5</p>
+    </section>
+    <p>paragraph3</p>
+    <p>paragraph4</p>
+    </div>
+    <p>ghjihduhih</p>
+    <h5>divya</h5>
+    
+    
+</body>
+</html>
